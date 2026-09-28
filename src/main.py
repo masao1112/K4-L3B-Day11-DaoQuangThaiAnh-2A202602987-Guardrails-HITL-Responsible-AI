@@ -152,6 +152,8 @@ async def main(parts=None):
     print("\n" + "=" * 60)
     print("Lab 11 complete! Check your results above.")
     print("=" * 60)
+    # Cho phép SSL transport / connection pool đóng giải phóng tài nguyên sạch sẽ
+    await asyncio.sleep(0.5)
 
 
 if __name__ == "__main__":
